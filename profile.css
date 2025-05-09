@@ -1,0 +1,283 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            background: #191716;
+        }
+
+        body 
+        {
+            background: #191716;
+            width:99%;
+        }
+
+        h3,
+        h2,
+        p 
+        {
+            color: #e0e2db;
+        }
+
+        .my img 
+        {
+            height: 400px;
+            width:300px;
+            padding-left: 0px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: 0.7s ease-in-out;
+            border-radius: 50px;
+        }
+
+        .my img:hover 
+        {
+            transform: scale(1.05);
+        }
+
+        .one 
+        {
+            color: #e0e2db;
+            transition: 0.7s ease-in-out;
+        }
+
+        .one:hover 
+        {
+            color: #e6af2e;
+            font-size: 50px;
+            font-family: cursive;
+        }
+
+        .sameer 
+        {
+            margin-right: 0;
+            font-family: cursive;
+        }
+
+        .navbar li 
+        {
+            font-size: 25px;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: 0.3s;
+        }
+
+        .home 
+        {
+            position: relative;
+            display: flex;
+            justify-content: center; /* center horizontally */
+            align-items: center;     /* center vertically */
+            height: 100vh;
+            padding: 70px 10% 0;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .home_content h3 
+        {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        /* On large screens align text to left */
+        @media (min-width: 992px) 
+        {
+            .home 
+            {
+                text-align: left;
+            }
+            .home_content 
+            {
+                text-align: left;
+            }
+            .sameer 
+            {
+                margin-right: 50px;
+            }
+        }
+
+        @media (min-width: 992px) 
+        {
+            .home 
+            {
+                text-align: left;
+            }
+            .home_content 
+            {
+                text-align: left;
+            }
+            .sameer 
+            {
+                margin-right: 50px;
+            }
+        }
+
+    @media screen and (max-width: 768px) 
+{
+
+    .my 
+    {
+        display: none;
+    }
+   
+}
+
+/* About Section Start */
+#About 
+{
+    padding-top: 100px;
+    min-height: 100vh;
+    max-width: 100%;
+    color: whitesmoke;
+}
+
+.about-img 
+{
+    height: 400px;
+    width:350px;
+    padding-left: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.7s ease-in-out;
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
+.about-img:hover 
+{
+    box-shadow: 0 0 100px rgba(230, 175, 46, 0.8);
+    transition: 1s all ease;
+    border-color: #e6af2e;
+}
+
+.about p 
+{
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 2rem 0 3rem;
+}
+
+.about a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.about a:hover 
+{
+    color: #e6af2e;
+    text-decoration: none;
+}
+
+.social-icons a 
+{
+    font-size: 30px !important;
+    padding: 10px;
+    color: #e0e2db;
+    transition: color 0.5s ease-in-out;
+}
+
+.social-icons a:hover 
+{
+    color: #e6af2e;
+}
+
+.heading 
+{
+    font-weight: 700;
+    font-size: 3rem;
+    color:#e6af2e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+   
+
+    
+}
+
+/* Skill Section */
+/* Skills Section Css Start */
+#skills 
+{
+    height: 700px; /* Changed to auto for better responsiveness */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.skill-card 
+{
+    height: 140px;
+    width: 140px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.skill-card:hover 
+{
+    box-shadow: 2px 2px 5px #e6af2e, -2px -2px 5px #e6af2e;
+}
+
+@media (max-width: 768px) 
+{
+    .skill-card 
+    {
+        height: 120px; /* Adjust height for smaller screens */
+        width: 120px; /* Adjust width for smaller screens */
+    }
+}
+
+
+/* Education section Start */
+
+
+#Education 
+{
+    padding: 50px 0; /* Add padding for spacing */
+}
+
+.Education img 
+{
+    height: 200px;
+    width: 100%; /* Ensure the image takes full width of the card */
+    object-fit: cover; /* Maintain aspect ratio */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.card 
+{
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.card:hover 
+{
+    color: white;
+    box-shadow: 0 10px 20px rgba(230, 175, 46, 0.8); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+#Hobbies 
+{
+    padding: 100px 0; /* Add padding to the top and bottom */
+}
+
+#Contact 
+{
+    padding: 100px 0; /* Add padding to the top and bottom */
+}
+
+.card 
+{
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.card:hover 
+{
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+.footer h1, h2, h3, p 
+{
+    font-family: cursive;
+}
